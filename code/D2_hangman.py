@@ -2,7 +2,7 @@
 
 from replit import clear
 import random
-from D2_hman_2 import word_list
+from code.D2_hman_1 import word_list
 
 end_of_game = False
 
@@ -12,7 +12,7 @@ word_length = len(chosen_word)
 #TODO-1: - Create a variable called 'lives' to keep track of the number of lives left. 
 #Set 'lives' to equal 6.
 lives = 6
-from D2_hman_1 import logo
+from code.D2_hman_2 import logo
 print(logo)
 #Testing code
 print(f'Pssst, the solution is {chosen_word}.')
@@ -56,5 +56,5 @@ while not end_of_game:
         print("You win.")
 
     #TODO-3: - print the ASCII art from 'stages' that corresponds to the current number of 'lives' the user has remaining.
-    from D2_hman_1 import stages
+    from code.D2_hman_1 import stages
     print(stages[lives])
